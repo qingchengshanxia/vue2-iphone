@@ -1,0 +1,1 @@
+set NODE_ENV=hot&&npm run dev
