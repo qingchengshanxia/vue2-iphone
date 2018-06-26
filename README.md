@@ -1,30 +1,18 @@
-# north
+适用：手机端vue框架，自适应各种手机屏幕；
 
-> A Vue.js project
+代码说明：copy源码后，只需在根目录下cmd执行命令 npm install 安装依赖包即可跑起来;
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+功能说明：
+    标准的文件构建目录
+    头部和脚部共用
+    登录控制
+    非登录端与登录端view主组件区分
+    axios封装成ajax的数据请求方式，支持跨域
+    语言国际化
+    登录密码加密
+    less工具快捷写css
+    阿里巴巴的iconfont支持
+    vue-animate动画效果支持
+    mock模拟数据
+    vux作为ui组件引入
+    lib-flexible和px2rem-loader淘宝插件实现移动端伸缩自适应
